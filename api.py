@@ -4,8 +4,8 @@ app = Flask(__name__)
 
 # Sample data in-memory (replace with a database for production)
 tasks = [
-    {'id': 1, 'title': 'Task 1', 'description': 'Description of Task 1', 'done': False},
-    {'id': 2, 'title': 'Task 2', 'description': 'Description of Task 2', 'done': True}
+    {'id': 1, 'title': 'Pay credit card debt', 'description': 'UOB card', 'done': False},
+    {'id': 2, 'title': 'Take Muffy to the vet', 'description': 'Appointment on 10 Dec at 1PM', 'done': True}
 ]
 
 # GET all tasks
